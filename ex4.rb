@@ -13,3 +13,9 @@ puts "There will be #{cars_not_driven} empty cars today."
 puts "We can transport #{carpool_capacity} people today."
 puts "We have #{passengers} passengers to carpool today."
 puts "We need to put about #{average_passengers_per_car} in each car"
+
+
+"
+Line 12 attempts to print value of carpool_capacity
+This will fail if the variable doesn't excist, as there is no value to acquire nor object to access
+"
